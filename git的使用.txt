@@ -13,7 +13,7 @@ git commit -m "project"
 git remote add origin https://github.com/moscms/sac2018.git
 
 工具记录
-git remote add origin https://github.com/moscms/suc.git
+git remote add origin https://github.com/moscms/suc2018.git
 
 git@github.com:moscms/suc.git
 
