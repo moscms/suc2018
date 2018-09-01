@@ -12,6 +12,9 @@ git commit -m "project"
 推送本地仓库到远程仓库
 git remote add origin https://github.com/moscms/sac2018.git
 
+工具记录
+git remote add origin https://github.com/moscms/suc.git
+
 git@github.com:moscms/suc.git
 
 git push -u origin master
@@ -27,8 +30,8 @@ git commit -m "project"
 git push　
 
 注:该步常见问题为mac git设置的全局用户名和密码与该远程仓库使用的用户名密码不相符，需要通过如下命令进行修改，使用后系统会提示输入密码
-git config --global user.name "用户名"
-git config --global user.email "邮箱"
+git config --global user.name "moscms"
+git config --global user.email "moscms@163.com"
 
 1. git init //初始化仓库
 
