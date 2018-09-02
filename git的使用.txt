@@ -26,6 +26,10 @@ git push -u origin master
 推送出错的处理
 git pull --rebase origin master
 
+git push A B:C     %其中A和C是分别remote端的一个repository的名字和branch的名字，B是本地端branch的名字
+
+的意思是把本地的B推送到remotes/A/C下。当B=C时可以直接省略为：git push A B
+
 
 同步远程仓库
 git clone https://xxxxxxx.git
